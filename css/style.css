@@ -1,0 +1,115 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+#showcase{
+	background: url('../img/city.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+	
+}
+
+.about{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 200px;
+	padding-left: 130px;
+	color: white;
+		
+}
+
+@media (max-width: 500px) {
+	.landing-text {
+	  padding-top: 80px;
+	  padding-left: 30px;
+	}
+  }
+
+  @media (max-width: 600px) {
+	.landing-text {
+	  padding-top: 100px;
+	  padding-left: 60px;
+	}
+  }  
+  
+
+.container{
+	width: 100%;
+	padding-right:10px;
+	padding-left: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.about h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.padding img{
+	width: 100%
+}
+
+#fixed{
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer{
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color: white;
+}
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon{
+	max-width: 200px
+}
+
+@media(max-width: 768px){
+	.about h1{
+		font-size: 300%;
+	}
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	
+	}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+#work{
+	padding: 5px;
+	margin: 5px;
+	size: 100%;
+}
